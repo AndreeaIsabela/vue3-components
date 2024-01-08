@@ -1,7 +1,12 @@
-<template lang="pug">
+<template lang='pug'>
 aside#sidebar
   ul.nav.flex-column
-    router-link.nav-item.text-center(tag="li" :to="{ name: 'modalView'}")
+    router-link.nav-item.text-center(
+      tag='li' 
+      :to='{ name: "alertView"}'
+    )
+      span.nav-link Alert Component
+    router-link.nav-item.text-center(tag='li' :to='{ name: "modalView"}')
       span.nav-link Modal Component
 </template>
 
@@ -9,7 +14,7 @@ aside#sidebar
 
 </script>
 
-<style lang="stylus" scoped>
+<style lang='stylus' scoped>
 #sidebar
   ul
     list-style: none

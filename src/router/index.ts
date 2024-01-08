@@ -1,20 +1,22 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import ModalView from '../views/ModalView.vue'
+import { createRouter, createWebHistory } from 'vue-router';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView
+      redirect: '/alert'
     },
     {
       path: '/modal',
       name: 'modalView',
-      component: ModalView
+      component: () => import('@/views/ModalView.vue')
     },
+    {
+      path: '/alert',
+      name: 'alertView',
+      component: () => import('@/views/AlertView.vue')
+    }
   ]
 })
 
