@@ -1,6 +1,6 @@
 <template lang='pug'>
 .row
-	.offset-2.col-6
+	.offset-2.col-8
 		Alert(
 			v-for='alertType in alertTypes'
 			:key='alertType'

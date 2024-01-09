@@ -16,6 +16,11 @@ const router = createRouter({
       path: '/alert',
       name: 'alertView',
       component: () => import('@/views/AlertView.vue')
+    },
+    {
+      path: '/pagination',
+      name: 'paginationView',
+      component: () => import('@/views/PaginationView.vue')
     }
   ]
 })
