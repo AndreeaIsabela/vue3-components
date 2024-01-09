@@ -6,8 +6,18 @@ aside#sidebar
       :to='{ name: "alertView"}'
     )
       span.nav-link Alert Component
-    router-link.nav-item.text-center(tag='li' :to='{ name: "modalView"}')
+
+    router-link.nav-item.text-center(
+      tag='li' 
+      :to='{ name: "modalView"}'
+    )
       span.nav-link Modal Component
+
+    router-link.nav-item.text-center(
+      tag='li' 
+      :to='{ name: "paginationView"}'
+    )
+      span.nav-link Pagination Component
 </template>
 
 <script setup>
