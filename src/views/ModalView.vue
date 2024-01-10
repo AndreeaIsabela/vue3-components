@@ -65,15 +65,6 @@ textarea
 .customModal-body
 	position relative
 	padding 0 25px 10px 20px
-.btn-green
-	color: white
-	background: #3eaf7c
-	border: 1px solid #3eaf7c
-	border-radius: 50px
-	padding: 10px 20px
-	font-size: 18px
-	font-weight: 500
-	float: center
 #openModal
 	margin: 100px
 </style>

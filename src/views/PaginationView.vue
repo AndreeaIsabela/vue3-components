@@ -20,8 +20,3 @@ const handlePageChange = (newPage) => {
   currentPage.value = newPage;
 }
 </script>
-
-<style lang='stylus'>
-.row
-  height: 100%
-</style>
