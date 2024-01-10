@@ -1,14 +1,14 @@
 <template lang='pug'>
 .row
-	.offset-2.col-8
-		Alert(
-			v-for='alertType in alertTypes'
-			:key='alertType'
-			:alertType='alertType' 
-			:imgPath='imgPath'
-		)
-			template(#body)
-				span This is an {{ alertType }} alert.
+  .offset-2.col-8
+    Alert(
+      v-for='alertType in alertTypes'
+      :key='alertType'
+      :alertType='alertType' 
+      :imgPath='imgPath'
+    )
+      template(#body)
+        span This is an {{ alertType }} alert.
 </template>
 
 <script setup>
