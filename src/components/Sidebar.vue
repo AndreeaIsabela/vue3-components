@@ -18,6 +18,12 @@ aside#sidebar
       :to='{ name: "paginationView"}'
     )
       span.nav-link Pagination Component
+
+    router-link.nav-item.text-center(
+      tag='li' 
+      :to='{ name: "transitionView"}'
+    )
+      span.nav-link Transition Component
 </template>
 
 <script setup>
