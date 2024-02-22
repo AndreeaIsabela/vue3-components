@@ -1,0 +1,4 @@
+const __resolved__virtual_storySource_srcAlertStoryVue = "<script setup>\nimport Alert from './Alert.vue';\n\nconst imgPath = './src/assets/logo.svg';\n<\/script>\n\n<template lang='pug'>\nstory(title='Alert')\n  variant(title='Success')\n    alert(\n      alertType='success'\n      :imgPath='imgPath'\n    )\n      template(#body)\n        span This is a success alert.\n\n  variant(title='Warning')\n    alert(\n      alertType='warning'\n      :imgPath='imgPath'\n    )\n      template(#body)\n        span This is a warning alert.\n\n  variant(title='Danger')\n    alert(\n      alertType='danger'\n      :imgPath='imgPath'\n    )\n      template(#body)\n        span This is a danger alert.\n\n  variant(title='Important')\n    alert(\n      alertType='important'\n      :imgPath='imgPath'\n    )\n      template(#body)\n        span This is an important alert.\n\n</template>\n";
+export {
+  __resolved__virtual_storySource_srcAlertStoryVue as default
+};

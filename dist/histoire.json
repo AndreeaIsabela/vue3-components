@@ -1,0 +1,117 @@
+{
+  "stories": [
+    {
+      "id": "src-alert-story-vue",
+      "title": "Alert",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-alert-story-vue-0",
+          "title": "Success"
+        },
+        {
+          "id": "src-alert-story-vue-1",
+          "title": "Warning"
+        },
+        {
+          "id": "src-alert-story-vue-2",
+          "title": "Danger"
+        },
+        {
+          "id": "src-alert-story-vue-3",
+          "title": "Important"
+        }
+      ],
+      "relativePath": "src/Alert.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Alert"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-customtransition-story-vue",
+      "title": "Transition",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "src-customtransition-story-vue-0",
+          "title": "Fade"
+        },
+        {
+          "id": "src-customtransition-story-vue-1",
+          "title": "Slide-x"
+        },
+        {
+          "id": "src-customtransition-story-vue-2",
+          "title": "Slide-y"
+        },
+        {
+          "id": "src-customtransition-story-vue-3",
+          "title": "Bounce"
+        }
+      ],
+      "relativePath": "src/CustomTransition.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Transition"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-modal-story-vue",
+      "title": "Modal",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/Modal.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Modal"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-pagination-story-vue",
+      "title": "Pagination",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/Pagination.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Pagination"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    }
+  ],
+  "markdownFiles": []
+}
